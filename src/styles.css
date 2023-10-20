@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --color-1: #0B62DB;
+    --color-2: #0BA0E6;
+    --color-3: #00C4CF;
+    --color-4: #0BE6B3;
+    --color-5: #0BDB70;
+}
+
+.cust-nav {
+    background-color: var(--color-5);
+}
+
