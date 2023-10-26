@@ -10,8 +10,6 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
 
-  // logged: boolean = false;
-
   constructor(private httpClient: HttpClient, private route: Router) { }
   url = "http://localhost:8000/api";
 
@@ -34,13 +32,11 @@ export class AuthService {
 
   isLogged(): boolean {
     const token = localStorage.getItem('token');
-    console.log(token);
     return !! token;
   }
 
   logout() {
     localStorage.removeItem('token');
-    // this.logged = false;
   }
 
 }

@@ -1,14 +1,54 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-
-:root {
+/* :root {
     --color-1: #0B62DB;
     --color-2: #0BA0E6;
     --color-3: #00C4CF;
     --color-4: #0BE6B3;
     --color-5: #0BDB70;
+} */
+
+/* :root {
+    --color-1: #142741;
+    --color-2: #56c9ff;
+    --color-3: #66dae0;
+    --color-4: #6bdec3;
+    --color-5: #64da9d;
+} */
+:root {
+    --color-1: #04364A;
+    --color-2: #176B87;
+    --color-3: #64CCC5;
+    --color-4: #DAFFFB;
+    --color-5: #64da9d;
 }
 
-.cust-nav {
+.cust-bg-dark {
+    background-color: var(--color-1);
+}
+
+.cust-bg-blue {
+    background-color: var(--color-2);
+}
+
+.cust-txt-light {
+    color: var(--color-4);
+}
+
+.cust-txt-dark {
+    color: var(--color-1);
+}
+
+.cust-btn-green {
     background-color: var(--color-5);
 }
+
+.cust-btn-blue {
+    background-color: var(--color-3);
+}
+
+.cust-link {
+    text-decoration: none;
+}
+
+
 

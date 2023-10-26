@@ -1,20 +1,25 @@
-<div class="container">
-    <form [formGroup]="form" (ngSubmit)="handleSubmit()">
-        <div class="row">
-            <div class="col sm-4">
+<div class="row justify-content-center">
+
+    <div class="border rounded col-6 p-4">
+
+        <form [formGroup]="form" (ngSubmit)="handleSubmit()">
+
+            <div class="">
                 <div class="form-group">
                     <label for="email" class="form-label">Email</label>
                     <input class="form-control" type="email" formControlName="username" required>
                 </div>
             </div>
-            <div class="col sm-4">
+
+            <div class="">
                 <div class="form-group">
                     <label for="password" class="form-label">Mot de passe</label>
                     <input class="form-control" type="password" formControlName="password" required>
                 </div>
             </div>
-            <button class="btn btn-success">Connexion</button>
-        </div>
 
-    </form>
+            <button class="btn cust-btn-green">Connexion</button>
+
+        </form>
+    </div>
 </div>
